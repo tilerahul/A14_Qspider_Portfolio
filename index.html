@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Portfolio</title>
   </head>
   <body>
     <main id="mainBody">
-      <div class="nameBox" data-aos="fade-left" data-aos-duration="1000">
+      <div class="nameBox" data-aos="flip-right" data-aos-duration="2000">
         <p>Hii.....</p>
         <h1>
           I am <br />
@@ -18,15 +24,27 @@
         </h1>
         <p>A Software Developer..........</p>
       </div>
-      <nav>
-        <div><a href="#"><i class="fa-solid fa-house-user"></i></a></div>
-        <div><a href="#"></a></div>
-        <div><a href="#"></a></div>
+      <nav data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
+        <div>
+          <a href="#"><i class="fa-solid fa-house-user"></i></a>
+        </div>
+        <div>
+          <a href="#aboutSection"><i class="fa-solid fa-address-card"></i></a>
+        </div>
+        <div><a href="#"><i class="fa-solid fa-diagram-project"></i></a></div>
         <div><a href="#"></a></div>
         <div><a href="#"></a></div>
         <div><a href="#"></a></div>
       </nav>
     </main>
+
+    <section id="aboutSection">
+      <main>
+        <article></article>
+        <article></article>
+      </main>
+    </section>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
