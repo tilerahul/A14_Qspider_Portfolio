@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  
+  color: rgb(95, 1, 95);
 }
 
 #mainBody {
@@ -249,24 +251,84 @@ nav > div > a > i {
   padding: 30px;
 }
 
-.achive{
-    width: 60%;
-    height: 80%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.achive {
+  width: 60%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.achive>article{
-    width: 100%;
-    margin: 10px 200px;
-    border-radius: 10px;
-    background-color: rgba(128, 0, 128, 0.096);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.achive > article {
+  width: 100%;
+  margin: 10px 200px;
+  border-radius: 10px;
+  background-color: rgba(128, 0, 128, 0.096);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.achive p{
-    margin: 10px;
+.achive p {
+  margin: 10px;
+}
+
+#contacts {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contacts > main {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 0, 128, 0.103);
+  border-radius: 10px;
+}
+
+#contacts img {
+  border-radius: 10px;
+}
+
+.contSection {
+  width: 70%;
+  height: 90%;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.contSection > div {
+  width: 80%;
+  height: 15%;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.contSection > div > a {
+  text-decoration: none;
+  color: rgb(95, 1, 95);
+  margin-left: 15px;
+}
+
+.contSection i {
+  font-size: 20px;
+}
+
+footer > p {
+  text-align: center;
+  color: rgb(95, 1, 95);
+  margin: 50px;
 }
