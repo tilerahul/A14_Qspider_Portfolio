@@ -3,12 +3,12 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  
+  /* overflow-x: hidden; */
   color: rgb(95, 1, 95);
 }
 
 #mainBody {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: linear-gradient(rgb(95, 1, 95), rgb(247, 156, 156));
   display: flex;
@@ -22,7 +22,7 @@
 
 .nameBox > h1 {
   color: white;
-  font-size: 130px;
+  font-size: 120px;
 }
 
 .nameBox > p {
@@ -298,23 +298,23 @@ nav > div > a > i {
 .contSection {
   width: 70%;
   height: 90%;
-  border: 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 10px;
   border-radius: 10px;
+  background-color: rgba(128, 0, 128, 0.127);
 }
 
 .contSection > div {
   width: 80%;
   height: 15%;
-  border: 1px solid;
   border-radius: 10px;
   display: flex;
   justify-content: start;
   align-items: center;
+  background-color: rgba(128, 0, 128, 0.103);
 }
 
 .contSection > div > a {
